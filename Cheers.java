@@ -13,7 +13,7 @@ public class Cheers {
             char letter;
             for(int i = 0; i<name.length(); i++)
             {
-                String x =" a";
+                String x ="a";
                 letter = name.charAt(i);
                 if (letter=='A'|| letter=='E' || letter=='F' || letter=='H' || letter=='I' || letter=='L' || letter=='M' || letter=='N' || letter=='O' || letter=='R' || letter=='S' || letter=='X') {
                       x = "an";  

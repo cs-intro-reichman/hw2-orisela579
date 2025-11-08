@@ -9,6 +9,7 @@ Great work boaz!
 public class Cheers {
         public static void main(String[] args) {
 	    String name = args[0];
+            name = name.toUpperCase();
             int n = Integer.parseInt(args[1]);
             char letter;
             for(int i = 0; i<name.length(); i++)
